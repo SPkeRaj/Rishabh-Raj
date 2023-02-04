@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Artist Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+            <h1>Rishabh Raj</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </div>
+    </header>
+    <main class="main1">
+        <h2 id="about">About</h2>
+        <div class="about-section">
+            <div class="about-text">
+                <p>Welcome to my digital art portfolio website! My name is Rishabh Raj,
+                    and I am a digital artist from Bihar, India. I have been creating
+                    digital art for over 2 and a half years and have honed my skills and
+                    style over time. I first started sharing my art on Instagram and have
+                    since built a following of people who appreciate my work. On this
+                    website, you will find a collection of my best pieces, showcasing my
+                    versatility and range as an artist. I specialize in creating digital
+                    illustrations, character designs, and concept art, and I am always
+                    pushing myself to improve and evolve as an artist. I hope you enjoy
+                    browsing my work and thank you for visiting my website.</p>
+            </div>
+            <div class="about-image">
+                <img class="rec1" src="rec1.png" alt="Artist Portrait">
+            </div>
+        </div>
+        <h2 id="work">My Creations</h2>
+        <div class="grid">
+            <div class="grid-item">
+                <img class="img" src="rec3.png" alt="Work 1">
+                <h3>Comic Style</h3>
+            </div>
+            <div class="grid-item">
+                <img class="img" src="rec3.png" alt="Work 2">
+                <h3>Illustrations</h3>
+            </div>
+            <div class="grid-item">
+                <img class="img" src="rec3.png" alt="Work 3">
+                <h3>Vector Arts</h3>
+            </div>
+        </div>
+        <div id="mre" class="more">
+            <li><a href="#More">View More</a></li>
+            <li><a href="#More">Wallpapers</a></li>
+        </div>
+        <h2 id="contact">Contact</h2>
+        <form class="form" action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+            <input class="btn" type="submit" value="Submit">
+        </form>
+    </main>
+    <footer>
+        &copy; Artist Portfolio 2023
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
